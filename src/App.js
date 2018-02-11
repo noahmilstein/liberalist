@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/get_involved" component={GetInvolved}/>
         <Route path="/reading" component={Reading}/>
         <Route path="/contact" component={Contact}/>
-        <Route path="/featured_content" component={FeatureContent}/>
+        <Route path="/featured_content" component={FeaturedContent}/>
         <Route path="/students" component={Students}/>
       </div>
     </Router>
