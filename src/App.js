@@ -1,12 +1,13 @@
 import React from 'react';
 import Nav from './pages/components/Nav';
-import { About, Contact, FeaturedContent, GetInvolved, Home, Principles, Reading, Students } from './pages/index';
-// import About from './pages/About';
-// import Contact from './pages/Contact';
-// import Principles from './pages/Principles';
-// import Reading from './pages/Reading';
-// import GetInvolved from './pages/GetInvolved';
-// import FeatureContent from './pages/FeatureContent';
+import About from './pages/About';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import Principles from './pages/Principles';
+import Reading from './pages/Reading';
+import GetInvolved from './pages/GetInvolved';
+import FeaturedContent from './pages/FeaturedContent';
+import Students from './pages/Students';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css';
 
