@@ -1,11 +1,12 @@
 import React from 'react';
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Nav from './pages/Nav';
-import Principles from './pages/Principles';
-import Reading from './pages/Reading';
-import GetInvolved from './pages/GetInvolved';
+import Nav from './pages/components/Nav';
+import { About, Contact, FeaturedContent, GetInvolved, Home, Principles, Reading, Students } from './pages/index';
+// import About from './pages/About';
+// import Contact from './pages/Contact';
+// import Principles from './pages/Principles';
+// import Reading from './pages/Reading';
+// import GetInvolved from './pages/GetInvolved';
+// import FeatureContent from './pages/FeatureContent';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css';
 
@@ -20,6 +21,8 @@ const App = () => {
         <Route path="/get_involved" component={GetInvolved}/>
         <Route path="/reading" component={Reading}/>
         <Route path="/contact" component={Contact}/>
+        <Route path="/featured_content" component={FeatureContent}/>
+        <Route path="/students" component={Students}/>
       </div>
     </Router>
   )
