@@ -8,4 +8,7 @@ const Contact = () => {
   )
 }
 
+// API CALLS
+// post email to email address
+
 export default Contact;

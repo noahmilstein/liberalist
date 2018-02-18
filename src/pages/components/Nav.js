@@ -1,17 +1,29 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import AppBar from 'material-ui/AppBar';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 const Nav = () => {
   return (
-    <nav id="nav">
-      <NavLink exact activeClassName="active" to="/">Home</NavLink>
-      <NavLink activeClassName="active" to="/about">About</NavLink>
-      <NavLink activeClassName="active" to="/principles">Principles</NavLink>
-      <NavLink activeClassName="active" to="/get_involved">Get Involved</NavLink>
-      <NavLink activeClassName="active" to="/contact">Contact</NavLink>
-      <NavLink activeClassName="active" to="/students">Students</NavLink>
-      <NavLink activeClassName="active" to="/featured_content">Featured Content</NavLink>
+    <MuiThemeProvider>
+      <nav id="nav">
+      <AppBar
+        showMenuIconButton={false}
+        title="USA Liberalist"
+        children={
+          <div className="navLinkList">
+            <NavLink className="navLink" exact activeClassName="active" to="/">Home</NavLink>
+            <NavLink className="navLink" activeClassName="active" to="/about">About</NavLink>
+            <NavLink className="navLink" activeClassName="active" to="/principles">Principles</NavLink>
+            {/* <NavLink className="navLink" activeClassName="active" to="/get_involved">Get Involved</NavLink> */}
+            <NavLink className="navLink" activeClassName="active" to="/contact">Contact</NavLink>
+            <NavLink className="navLink" activeClassName="active" to="/students">Students</NavLink>
+            <NavLink className="navLink" activeClassName="active" to="/blog">Blog</NavLink>
+          </div>
+        }
+      />
     </nav>
+    </MuiThemeProvider>
   )
 }
 
