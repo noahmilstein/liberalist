@@ -27,6 +27,12 @@ const App = () => {
   )
 }
 
+// Layout: Nav bar tab -> subtabs
+// Home -> summary, blog, readings
+// About -> goals, other pertinent information
+// principles ->
+// contact ->
+// Resources -> student resources,  get involved, 
 // admin login
 
 export default App;
