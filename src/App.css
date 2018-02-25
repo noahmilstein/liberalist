@@ -17,10 +17,24 @@
   font-size: large;
 }
 
-a, a:visited {
-  color: blue
+a.active {
+  color: red;
 }
 
-a.active {
-  color: red
+a {
+  color: black;
+}
+
+/* outter div */
+.navLinkList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* inner div */
+.navLink {
+  max-width: 50%;
+  margin: 0px 10px;
 }

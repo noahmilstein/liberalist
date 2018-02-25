@@ -4,7 +4,6 @@ const Reading = () => {
   return (
     <div id="reading">
       <p>Reading</p>
-      <button>BACK</button>
     </div>
   )
 }

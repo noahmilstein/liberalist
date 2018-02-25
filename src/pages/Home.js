@@ -21,4 +21,6 @@ const Home = () => {
   )
 }
 
+// API GET to twitter
+
 export default Home;
