@@ -17,7 +17,7 @@ const About = () => {
           <Tab label="Reading">
             <Reading/>
           </Tab>
-          <Tab label="GetInvolved">
+          <Tab label="Get Involved">
             <GetInvolved/>
           </Tab>
         </Tabs>

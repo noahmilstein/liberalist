@@ -13,12 +13,12 @@ const Nav = () => {
         children={
           <div className="navLinkList">
             <NavLink className="navLink" exact activeClassName="active" to="/">Home</NavLink>
-            <NavLink className="navLink" activeClassName="active" to="/about">About</NavLink>
             <NavLink className="navLink" activeClassName="active" to="/principles">Principles</NavLink>
-            {/* <NavLink className="navLink" activeClassName="active" to="/get_involved">Get Involved</NavLink> */}
-            <NavLink className="navLink" activeClassName="active" to="/contact">Contact</NavLink>
+            <NavLink className="navLink" activeClassName="active" to="/about">About</NavLink>
             <NavLink className="navLink" activeClassName="active" to="/students">Students</NavLink>
+            {/* <NavLink className="navLink" activeClassName="active" to="/get_involved">Get Involved</NavLink> */}
             <NavLink className="navLink" activeClassName="active" to="/blog">Blog</NavLink>
+            <NavLink className="navLink" activeClassName="active" to="/contact">Contact</NavLink>
           </div>
         }
       />
